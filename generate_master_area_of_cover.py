@@ -1,20 +1,12 @@
 from faker import Factory
 fake = Factory.create()
 
-print fake.name()
-# 'Lucy Cechtelar'
+file = open('Master-area-of-cover.csv', 'w+')
 
-print fake.address()
-# "426 Jordy Lodge
-#  Cartwrightshire, SC 88120-6700"
+text = "Worldwide,Worldwide excluding USA,South East Asia,Europe"
 
-print fake.text()
-# Sint velit eveniet. Rerum atque repellat voluptatem quia rerum. Numquam excepturi
-# beatae sint laudantium consequatur. Magni occaecati itaque sint et sit tempore. Nesciunt
-# amet quidem. Iusto deleniti cum autem ad quia aperiam.
-# A consectetur quos aliquam. In iste aliquid et aut similique suscipit. Consequatur qui
-# quaerat iste minus hic expedita. Consequuntur error magni et laboriosam. Aut aspernatur
-# voluptatem sit aliquam. Dolores voluptatum est.
-# Aut molestias et maxime. Fugit autem facilis quos vero. Eius quibusdam possimus est.
-# Ea quaerat et quisquam. Deleniti sunt quam. Adipisci consequatur id in occaecati.
-# Et sint et. Ut ducimus quod nemo ab voluptatum.
+
+print file.read()
+
+for _ in range(0,10):
+    print fake.country() + ',' + fake.country() + ',' + fake.country() + ',' + fake.country()
