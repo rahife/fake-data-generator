@@ -1,7 +1,7 @@
 from faker import Factory
 from helpers import decor
 
-def gen_master_areas():
+def gen_master_areas(rows):
     fake = Factory.create()
 
     file = open('csv/Master-area-of-cover.csv', 'w+')
@@ -10,7 +10,7 @@ def gen_master_areas():
 
     print file.read()
 
-    for _ in range(0,10):
+    for _ in range(0,rows):
         next_row = decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + '\r\n'
         content = content + next_row
 

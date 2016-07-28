@@ -1,7 +1,7 @@
 from faker import Factory
 from helpers import decor
 
-def gen_countries_availability():
+def gen_countries_availability(rows):
     fake = Factory.create()
 
     file = open('csv/Country-of-residence-plan-availability.csv', 'w+')
@@ -10,8 +10,8 @@ def gen_countries_availability():
 
     print file.read()
 
-    for _ in range(0,10):
-        next_row = decor("picha, ole") + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + '\r\n'
+    for _ in range(0,rows):
+        next_row = decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + '\r\n'
         text = text + next_row
 
     file.write(text)

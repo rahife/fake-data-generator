@@ -2,7 +2,7 @@ from faker import Factory
 from helpers import decor
 
 
-def gen_plans():
+def gen_plans(rows):
     fake = Factory.create()
 
     file = open('csv/Company-premiums-and-benefits.csv', 'w+')
@@ -11,9 +11,9 @@ def gen_plans():
 
     print file.read()
 
-    for _ in range(0, 10):
-        next_row = decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(
-            fake.country()) + ',' + decor(fake.country()) + \
+    for _ in range(0, rows):
+        next_row = decor(fake.catch_phrase()) + ',' + decor(fake.country()) + ',' + decor(fake.ean8()) + ',' + decor(
+            fake.company()) + ',' + decor(fake.country()) + \
                    decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(
             fake.country()) + ',' + decor(fake.country()) + \
                    decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(fake.country()) + ',' + decor(
