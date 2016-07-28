@@ -1,0 +1,9 @@
+from generators.generate_master_area_of_cover import gen_master_areas
+from generators.generate_company_premiums_and_benefits import gen_plans
+from generators.generate_country_of_residence_plan_availability import gen_countries_availability
+from generators.generate_sub_zones_of_cover import gen_sub_zones
+
+gen_master_areas()
+gen_plans()
+gen_countries_availability()
+gen_sub_zones()
