@@ -9,7 +9,6 @@ Environment:
 - Ubuntu 14.04
 - Python 2.7.10
 - pip 8.1.2
-- fake-factory 0.5.9
 
 Steps:
 
