@@ -8,6 +8,15 @@ It's using:
 - pip 8.1.2
 - fake-factory 0.5.9
 
+##INSTALATION
+
+```
+git clone git@github.com:rahife/fake-data-generator.git
+cd fake-data-generator
+pip install -r requirements.txt
+python generate_fake_data.py #if you have problems try with sudo
+```
+
 ##FILES GENERATED
 
 - Master-area-of-cover.csv
@@ -16,6 +25,8 @@ It's using:
 - Company-premiums-and-benefits.csv
 
 They are generated in the csv folder.
+
+You can modify the number of rows you want in each file. Just edit generate_fake_data.py
 
 ##CSV VALIDATION
 
