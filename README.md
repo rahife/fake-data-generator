@@ -16,8 +16,8 @@ Steps:
 ```
 git clone git@github.com:rahife/fake-data-generator.git
 cd fake-data-generator
-pip install -r requirements.txt
-python generate_fake_data.py #if you have problems try with sudo
+pip install -r requirements.txt #if you have problems, try with sudo
+python generate_fake_data.py #if you have problems, try with sudo
 ```
 
 ##FILES GENERATED
