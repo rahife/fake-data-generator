@@ -1,6 +1,8 @@
 #FAKE DATA GENERATOR
 
-Simple scripts to generate fake CSV files. It can be modified to generate many kinds of fake data files. For more info, check fake-factory online help.
+Simple scripts to generate fake CSV files using fake-factory. It can be modified to generate many kinds of fake data files. For more info, check:
+
+https://pypi.python.org/pypi/fake-factory
 
 ##INSTALATION
 
