@@ -7,7 +7,7 @@ Simple scripts to generate fake CSV files. It can be modified to generate many k
 Environment: 
 
 - Ubuntu 14.04
-- Python 2.7.10
+- Python 2.7.3
 - pip 8.1.2
 
 Steps:
