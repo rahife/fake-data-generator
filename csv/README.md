@@ -1,1 +1,1 @@
-This folder contain the generated files.
+This folder is for the generated files.
