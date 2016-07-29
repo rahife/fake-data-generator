@@ -2,13 +2,16 @@
 
 Simple scripts to generate fake CSV files. It can be modified to generate many kinds of fake data files. For more info, check fake-factory online help.
 
-It's using: 
+##INSTALATION
 
+Environment: 
+
+- Ubuntu 14.04
 - Python 2.7.10
 - pip 8.1.2
 - fake-factory 0.5.9
 
-##INSTALATION
+Steps:
 
 ```
 git clone git@github.com:rahife/fake-data-generator.git
@@ -19,14 +22,14 @@ python generate_fake_data.py #if you have problems try with sudo
 
 ##FILES GENERATED
 
+These files will be generated in the csv folder:
+
 - Master-area-of-cover.csv
 - Sub-zones-of-cover.csv
 - Country-of-residence-plan-availability.csv
 - Company-premiums-and-benefits.csv
 
-They are generated in the csv folder.
-
-You can modify the number of rows you want in each file. Just edit generate_fake_data.py
+You can modify the number of rows you want in each file editing generate_fake_data.py
 
 ##CSV VALIDATION
 
