@@ -8,7 +8,6 @@ https://pypi.python.org/pypi/fake-factory
 
 Environment: 
 
-- Ubuntu 14.04
 - Python 2.7.3
 - pip 8.1.2
 
